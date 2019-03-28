@@ -1,0 +1,2 @@
+https://github.com/pennyworth12345/ConfigDumpFileIO/releases
+nul = [] execVM "dumpConfig.sqf" 
