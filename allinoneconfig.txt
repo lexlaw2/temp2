@@ -1,7 +1,0 @@
-https://github.com/pennyworth12345/ConfigDumpFileIO/releases
-https://forums.bohemia.net/forums/topic/191737-updated-all-in-one-config-dumps/
-nul = [] execVM "dumpConfig.sqf" 
-[configfile >> "CfgWeapons" >> "rhs_acc_dh520x56"] call compile preprocessFileLineNumbers "dumpConfig.sqf"
-[configfile >> "CfgWeapons" >> "rhs_acc_dh520x56",true] call compile preprocessFileLineNumbers "dumpConfig.sqf"
-[configfile >> "CfgVehicles"] call compile preprocessFileLineNumbers "dumpConfig.sqf"
-[configfile >> "CfgWeapons"] call compile preprocessFileLineNumbers "dumpConfig.sqf"
